@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "http-proxy-middleware": "^2.0.6",
+    "next": "13.5.6",
+    "or": "^0.2.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.6"
+    "react-icons": "^4.11.0",
+    "react-json-view": "^1.21.3",
+    "sass": "^1.69.5"
   },
   "devDependencies": {
     "eslint": "^8",

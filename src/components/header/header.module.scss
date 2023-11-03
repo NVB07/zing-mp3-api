@@ -1,0 +1,45 @@
+.header {
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    // background-color: #721799;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // border-bottom: 1px solid #242424;
+    box-shadow: var(--line-outer);
+    .brand_logo {
+        width: fit-content;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .img_wrapper {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            border-radius: 9999px;
+            margin-right: 10px;
+            img {
+                width: 100%;
+                height: 100%;
+                transform: scale(1.55);
+                object-fit: cover;
+            }
+        }
+        h3 {
+            font-size: 26px;
+        }
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .navigation_wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+        }
+    }
+}

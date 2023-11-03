@@ -1,0 +1,20 @@
+.path_page {
+    margin-top: 10px;
+    width: fit-content;
+    height: 50px;
+    color: #ffc400;
+    user-select: none;
+    span {
+        margin-right: 3px;
+        padding-bottom: 2px;
+        display: inline-block;
+        a {
+            font-size: 16px;
+            line-height: 1;
+            display: block;
+        }
+        &:hover {
+            border-bottom: 1px solid #ffc400;
+        }
+    }
+}
